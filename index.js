@@ -1,6 +1,6 @@
-const stateList = require('./state.json');
-const districtList = require('./district.json');
-const schoolList = require('./school.json');
+const stateList = require('./src/state.json');
+const districtList = require('./src/district.json');
+const schoolList = require('./src/school.json');
 
 module.exports = {
 	getStateById: function (id){
