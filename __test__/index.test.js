@@ -1,4 +1,4 @@
-const xxx = require('../index');
+const xxx = require('../src/index');
 
 describe('SLM', () => {
     test('getStateById', ()=> {
