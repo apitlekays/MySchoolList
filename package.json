@@ -1,7 +1,7 @@
 {
   "name": "school-list-my",
   "version": "1.0.0",
-  "description": "",
+  "description": "Library for fetching list of schools in Malaysia based on States & District.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/apitlekays/MySchoolList.git"
   },
-  "keywords": [],
+  "keywords": ["Malaysia Schools", "States", "District","List"],
   "author": "DrHafizHanif",
   "homepage": "https://github.com/apitlekays/MySchoolList/blob/master/README.md",
   "license": "ISC",
