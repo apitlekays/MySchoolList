@@ -1,4 +1,4 @@
-School-List-My
+MY-School-List
 ==============================
 Library for fetching list of schools in Malaysia based on States & District.
 
@@ -8,13 +8,13 @@ Data taken from Ministry of Education Malaysia
 Skeleton taken from harpreetkhalsagtbit's `country-state-city`
 
 # Install
-`npm i school-list-my`
+`npm i my-school-list`
 
 # Usage
   - ES6 Module usage
    
      ```js
-     import SLM from 'school-list-my'
+     import MSL from 'my-school-list'
      ```
 
 # Docs
