@@ -1,0 +1,722 @@
+[
+	{
+		"id": "1",
+		"name": "PPD BATANG PADANG",
+		"state_id": "8"
+	},
+	{
+		"id": "2",
+		"name": "PPD MANJUNG",
+		"state_id": "8"
+	},
+	{
+		"id": "3",
+		"name": "PPD KINTA UTARA",
+		"state_id": "8"
+	},
+	{
+		"id": "4",
+		"name": "PPD KINTA SELATAN",
+		"state_id": "8"
+	},
+	{
+		"id": "5",
+		"name": "PPD KRIAN",
+		"state_id": "8"
+	},
+	{
+		"id": "6",
+		"name": "PPD KUALA KANGSAR",
+		"state_id": "8"
+	},
+	{
+		"id": "7",
+		"name": "PPD HILIR PERAK",
+		"state_id": "8"
+	},
+	{
+		"id": "8",
+		"name": "PPD LARUT/MATANG/SELAMA",
+		"state_id": "8"
+	},
+	{
+		"id": "9",
+		"name": "PPD HULU PERAK",
+		"state_id": "8"
+	},
+	{
+		"id": "10",
+		"name": "PPD PERAK TENGAH",
+		"state_id": "8"
+	},
+	{
+		"id": "11",
+		"name": "PPD BAGAN DATUK",
+		"state_id": "8"
+	},
+	{
+		"id": "12",
+		"name": "PPD KLANG",
+		"state_id": "10"
+	},
+	{
+		"id": "13",
+		"name": "PPD PETALING PERDANA",
+		"state_id": "10"
+	},
+	{
+		"id": "14",
+		"name": "PPD KUALA LANGAT",
+		"state_id": "10"
+	},
+	{
+		"id": "15",
+		"name": "PPD KUALA SELANGOR",
+		"state_id": "10"
+	},
+	{
+		"id": "16",
+		"name": "PPD HULU LANGAT",
+		"state_id": "10"
+	},
+	{
+		"id": "17",
+		"name": "PPD HULU SELANGOR",
+		"state_id": "10"
+	},
+	{
+		"id": "18",
+		"name": "PPD SABAK BERNAM",
+		"state_id": "10"
+	},
+	{
+		"id": "19",
+		"name": "PPD GOMBAK",
+		"state_id": "10"
+	},
+	{
+		"id": "20",
+		"name": "PPD PETALING UTAMA",
+		"state_id": "10"
+	},
+	{
+		"id": "21",
+		"name": "PPD SEPANG",
+		"state_id": "10"
+	},
+	{
+		"id": "22",
+		"name": "PPD BENTONG",
+		"state_id": "6"
+	},
+	{
+		"id": "23",
+		"name": "PPD CAMERON HIGHLANDS",
+		"state_id": "6"
+	},
+	{
+		"id": "24",
+		"name": "PPD JERANTUT",
+		"state_id": "6"
+	},
+	{
+		"id": "25",
+		"name": "PPD LIPIS",
+		"state_id": "6"
+	},
+	{
+		"id": "26",
+		"name": "PPD KUANTAN",
+		"state_id": "6"
+	},
+	{
+		"id": "27",
+		"name": "PPD PEKAN",
+		"state_id": "6"
+	},
+	{
+		"id": "28",
+		"name": "PPD RAUB",
+		"state_id": "6"
+	},
+	{
+		"id": "29",
+		"name": "PPD TEMERLOH",
+		"state_id": "6"
+	},
+	{
+		"id": "30",
+		"name": "PPD ROMPIN",
+		"state_id": "6"
+	},
+	{
+		"id": "31",
+		"name": "PPD MARAN",
+		"state_id": "6"
+	},
+	{
+		"id": "32",
+		"name": "PPD BERA",
+		"state_id": "6"
+	},
+	{
+		"id": "33",
+		"name": "PPD BACHOK",
+		"state_id": "3"
+	},
+	{
+		"id": "34",
+		"name": "PPD KOTA BHARU",
+		"state_id": "3"
+	},
+	{
+		"id": "35",
+		"name": "PPD MACHANG",
+		"state_id": "3"
+	},
+	{
+		"id": "36",
+		"name": "PPD PASIR MAS",
+		"state_id": "3"
+	},
+	{
+		"id": "37",
+		"name": "PPD PASIR PUTIH",
+		"state_id": "3"
+	},
+	{
+		"id": "38",
+		"name": "PPD TANAH MERAH",
+		"state_id": "3"
+	},
+	{
+		"id": "39",
+		"name": "PPD TUMPAT",
+		"state_id": "3"
+	},
+	{
+		"id": "40",
+		"name": "PPD KUALA KRAI",
+		"state_id": "3"
+	},
+	{
+		"id": "41",
+		"name": "PPD GUA MUSANG",
+		"state_id": "3"
+	},
+	{
+		"id": "42",
+		"name": "PPD JELI",
+		"state_id": "3"
+	},
+	{
+		"id": "43",
+		"name": "PPD BATU PAHAT",
+		"state_id": "1"
+	},
+	{
+		"id": "44",
+		"name": "PPD JOHOR BAHRU",
+		"state_id": "1"
+	},
+	{
+		"id": "45",
+		"name": "PPD PASIR GUDANG",
+		"state_id": "1"
+	},
+	{
+		"id": "46",
+		"name": "PPD KULAI",
+		"state_id": "1"
+	},
+	{
+		"id": "47",
+		"name": "PPD KLUANG",
+		"state_id": "1"
+	},
+	{
+		"id": "48",
+		"name": "PPD KOTA TINGGI",
+		"state_id": "1"
+	},
+	{
+		"id": "49",
+		"name": "PPD MERSING",
+		"state_id": "1"
+	},
+	{
+		"id": "50",
+		"name": "PPD MUAR",
+		"state_id": "1"
+	},
+	{
+		"id": "51",
+		"name": "PPD PONTIAN",
+		"state_id": "1"
+	},
+	{
+		"id": "52",
+		"name": "PPD SEGAMAT",
+		"state_id": "1"
+	},
+	{
+		"id": "53",
+		"name": "PPD TANGKAK",
+		"state_id": "1"
+	},
+	{
+		"id": "54",
+		"name": "PPD BALING",
+		"state_id": "2"
+	},
+	{
+		"id": "55",
+		"name": "PPD SIK",
+		"state_id": "2"
+	},
+	{
+		"id": "56",
+		"name": "PPD KULIM/BANDAR BAHARU",
+		"state_id": "2"
+	},
+	{
+		"id": "57",
+		"name": "PPD KOTA SETAR",
+		"state_id": "2"
+	},
+	{
+		"id": "58",
+		"name": "PPD KUALA MUDA/YAN",
+		"state_id": "2"
+	},
+	{
+		"id": "59",
+		"name": "PPD KUBANG PASU",
+		"state_id": "2"
+	},
+	{
+		"id": "60",
+		"name": "PPD LANGKAWI",
+		"state_id": "2"
+	},
+	{
+		"id": "61",
+		"name": "PPD PADANG TERAP",
+		"state_id": "2"
+	},
+	{
+		"id": "62",
+		"name": "PPD PENDANG",
+		"state_id": "2"
+	},
+	{
+		"id": "63",
+		"name": "PPD ALOR GAJAH",
+		"state_id": "4"
+	},
+	{
+		"id": "64",
+		"name": "PPD JASIN",
+		"state_id": "4"
+	},
+	{
+		"id": "65",
+		"name": "PPD MELAKA TENGAH",
+		"state_id": "4"
+	},
+	{
+		"id": "66",
+		"name": "PPD JEMPOL/JELEBU",
+		"state_id": "5"
+	},
+	{
+		"id": "67",
+		"name": "PPD KUALA PILAH",
+		"state_id": "5"
+	},
+	{
+		"id": "68",
+		"name": "PPD PORT DICKSON",
+		"state_id": "5"
+	},
+	{
+		"id": "69",
+		"name": "PPD REMBAU",
+		"state_id": "5"
+	},
+	{
+		"id": "70",
+		"name": "PPD SEREMBAN",
+		"state_id": "5"
+	},
+	{
+		"id": "71",
+		"name": "PPD TAMPIN",
+		"state_id": "5"
+	},
+	{
+		"id": "72",
+		"name": "PPD SEBERANG PRAI TENGAH",
+		"state_id": "7"
+	},
+	{
+		"id": "73",
+		"name": "PPD TIMUR LAUT",
+		"state_id": "7"
+	},
+	{
+		"id": "74",
+		"name": "PPD BARAT DAYA",
+		"state_id": "7"
+	},
+	{
+		"id": "75",
+		"name": "PPD SEBERANG PERAI UTARA",
+		"state_id": "7"
+	},
+	{
+		"id": "76",
+		"name": "PPD SEBERANG PRAI SELATAN",
+		"state_id": "7"
+	},
+	{
+		"id": "77",
+		"name": "JPN PERLIS",
+		"state_id": "9"
+	},
+	{
+		"id": "78",
+		"name": "PPD BESUT",
+		"state_id": "11"
+	},
+	{
+		"id": "79",
+		"name": "PPD DUNGUN",
+		"state_id": "11"
+	},
+	{
+		"id": "80",
+		"name": "PPD KEMAMAN",
+		"state_id": "11"
+	},
+	{
+		"id": "81",
+		"name": "PPD KUALA TERENGGANU",
+		"state_id": "11"
+	},
+	{
+		"id": "82",
+		"name": "PPD MARANG",
+		"state_id": "11"
+	},
+	{
+		"id": "83",
+		"name": "PPD HULU TERENGGANU",
+		"state_id": "11"
+	},
+	{
+		"id": "84",
+		"name": "PPD SETIU",
+		"state_id": "11"
+	},
+	{
+		"id": "85",
+		"name": "PPD KUALA NERUS",
+		"state_id": "11"
+	},
+	{
+		"id": "86",
+		"name": "PPW BANGSAR PUDU",
+		"state_id": "14"
+	},
+	{
+		"id": "87",
+		"name": "PPW KERAMAT",
+		"state_id": "14"
+	},
+	{
+		"id": "88",
+		"name": "PPW SENTUL",
+		"state_id": "14"
+	},
+	{
+		"id": "89",
+		"name": "JPWP LABUAN",
+		"state_id": "15"
+	},
+	{
+		"id": "90",
+		"name": "JPWP PUTRAJAYA",
+		"state_id": "16"
+	},
+	{
+		"id": "91",
+		"name": "PPD KENINGAU",
+		"state_id": "12"
+	},
+	{
+		"id": "92",
+		"name": "PPD PENSIANGAN",
+		"state_id": "12"
+	},
+	{
+		"id": "93",
+		"name": "PPD TAMBUNAN",
+		"state_id": "12"
+	},
+	{
+		"id": "94",
+		"name": "PPD TENOM",
+		"state_id": "12"
+	},
+	{
+		"id": "95",
+		"name": "PPD SANDAKAN",
+		"state_id": "12"
+	},
+	{
+		"id": "96",
+		"name": "PPD KINABATANGAN",
+		"state_id": "12"
+	},
+	{
+		"id": "97",
+		"name": "PPD LABUK & SUGUT",
+		"state_id": "12"
+	},
+	{
+		"id": "98",
+		"name": "PPD LAHAD DATU",
+		"state_id": "12"
+	},
+	{
+		"id": "99",
+		"name": "PPD TONGOD",
+		"state_id": "12"
+	},
+	{
+		"id": "100",
+		"name": "PPD RANAU",
+		"state_id": "12"
+	},
+	{
+		"id": "101",
+		"name": "PPD TAWAU",
+		"state_id": "12"
+	},
+	{
+		"id": "102",
+		"name": "PPD KUNAK",
+		"state_id": "12"
+	},
+	{
+		"id": "103",
+		"name": "PPD SEMPORNA",
+		"state_id": "12"
+	},
+	{
+		"id": "104",
+		"name": "PPD KOTA KINABALU",
+		"state_id": "12"
+	},
+	{
+		"id": "105",
+		"name": "PPD PENAMPANG",
+		"state_id": "12"
+	},
+	{
+		"id": "106",
+		"name": "PPD PAPAR",
+		"state_id": "12"
+	},
+	{
+		"id": "107",
+		"name": "PPD TUARAN",
+		"state_id": "12"
+	},
+	{
+		"id": "108",
+		"name": "PPD KUDAT",
+		"state_id": "12"
+	},
+	{
+		"id": "109",
+		"name": "PPD KOTA MARUDU",
+		"state_id": "12"
+	},
+	{
+		"id": "110",
+		"name": "PPD PITAS",
+		"state_id": "12"
+	},
+	{
+		"id": "111",
+		"name": "PPD KOTA BELUD",
+		"state_id": "12"
+	},
+	{
+		"id": "112",
+		"name": "PPD BEAUFORT",
+		"state_id": "12"
+	},
+	{
+		"id": "113",
+		"name": "PPD SIPITANG",
+		"state_id": "12"
+	},
+	{
+		"id": "114",
+		"name": "PPD KUALA PENYU",
+		"state_id": "12"
+	},
+	{
+		"id": "115",
+		"name": "PPD BAU",
+		"state_id": "13"
+	},
+	{
+		"id": "116",
+		"name": "PPD KUCHING",
+		"state_id": "13"
+	},
+	{
+		"id": "117",
+		"name": "PPD PADAWAN",
+		"state_id": "13"
+	},
+	{
+		"id": "118",
+		"name": "PPD SAMARAHAN",
+		"state_id": "13"
+	},
+	{
+		"id": "119",
+		"name": "PPD LUNDU",
+		"state_id": "13"
+	},
+	{
+		"id": "120",
+		"name": "PPD SRI AMAN",
+		"state_id": "13"
+	},
+	{
+		"id": "121",
+		"name": "PPD BETONG",
+		"state_id": "13"
+	},
+	{
+		"id": "122",
+		"name": "PPD SARATOK",
+		"state_id": "13"
+	},
+	{
+		"id": "123",
+		"name": "PPD LUBOK ANTU",
+		"state_id": "13"
+	},
+	{
+		"id": "124",
+		"name": "PPD SIBU",
+		"state_id": "13"
+	},
+	{
+		"id": "125",
+		"name": "PPD DALAT",
+		"state_id": "13"
+	},
+	{
+		"id": "126",
+		"name": "PPD SELANGAU",
+		"state_id": "13"
+	},
+	{
+		"id": "127",
+		"name": "PPD KANOWIT",
+		"state_id": "13"
+	},
+	{
+		"id": "128",
+		"name": "PPD MUKAH",
+		"state_id": "13"
+	},
+	{
+		"id": "129",
+		"name": "PPD MIRI",
+		"state_id": "13"
+	},
+	{
+		"id": "130",
+		"name": "PPD BARAM",
+		"state_id": "13"
+	},
+	{
+		"id": "131",
+		"name": "PPD BINTULU",
+		"state_id": "13"
+	},
+	{
+		"id": "132",
+		"name": "PPD SUBIS",
+		"state_id": "13"
+	},
+	{
+		"id": "133",
+		"name": "PPD LIMBANG",
+		"state_id": "13"
+	},
+	{
+		"id": "134",
+		"name": "PPD LAWAS",
+		"state_id": "13"
+	},
+	{
+		"id": "135",
+		"name": "PPD DARO",
+		"state_id": "13"
+	},
+	{
+		"id": "136",
+		"name": "PPD SARIKEI",
+		"state_id": "13"
+	},
+	{
+		"id": "137",
+		"name": "PPD JULAU",
+		"state_id": "13"
+	},
+	{
+		"id": "138",
+		"name": "PPD MARADONG",
+		"state_id": "13"
+	},
+	{
+		"id": "139",
+		"name": "PPD KAPIT",
+		"state_id": "13"
+	},
+	{
+		"id": "140",
+		"name": "PPD BELAGA",
+		"state_id": "13"
+	},
+	{
+		"id": "141",
+		"name": "PPD SERIAN",
+		"state_id": "13"
+	},
+	{
+		"id": "142",
+		"name": "PPD SIMUNJAN",
+		"state_id": "13"
+	},
+	{
+		"id": "143",
+		"name": "PPD TATAU/SEBAUH",
+		"state_id": "13"
+	},
+	{
+		"id": "144",
+		"name": "PPD SONG",
+		"state_id": "13"
+	}
+]
