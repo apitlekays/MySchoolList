@@ -6,6 +6,9 @@ module.exports = {
 	getStateById: function (id){
 		return _findEntryById(stateList, id);
 	},
+	getStateByShortname: function(code){
+		return _findEntryByShortname(stateList, code)
+	},
 	getDistrictById: function (id){
 		return _findEntryById(districtList, id);
 	},
@@ -40,6 +43,14 @@ let _findEntryById = (source, id) => {
 let _findEntryByCode = (source, code) => {
 	if (code && source != null) {
 		let codex = source.findIndex((c) => c.schoolcode === code);
+		return (codex !== -1) ? source[codex] : "";
+	}
+	else return "";
+}
+
+let _findEntryByShortname = (source, code) => {
+	if (code && source != null) {
+		let codex = source.findIndex((c) => c.shortname === code);
 		return (codex !== -1) ? source[codex] : "";
 	}
 	else return "";

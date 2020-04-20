@@ -7,9 +7,19 @@ describe('SLM', () => {
         let State = xxx.getStateById(id);
         expect(State).toEqual({
             id: "11",
-            sortname: "TRG",
+            shortname: "TRG",
             name: "Terengganu",
             iso: "MY-11"
+        })
+    })
+    test('getStateByShortname', () => {
+        const scode = 'KUL';
+        let Negeri = xxx.getStateByShortname(scode);
+        expect(Negeri).toEqual({
+            id: "14",
+            shortname: "KUL",
+            name: "Kuala Lumpur",
+            iso: "MY-14"
         })
     })
     test('getDistrictById', () => {

@@ -29,7 +29,23 @@ type: **json**
 ```js
 {
     "id": "1",
-    "sortname": "JHR",
+    "shortname": "JHR",
+    "name": "Johor",
+    "iso": "MY-01"
+}
+```
+
+getStateByShortname(code)
+---------------
+
+It accepts a valid `shortname` eg: `'JHR'` and returns *State Details*
+
+type: **json**
+
+```js
+{
+    "id": "1",
+    "shortname": "JHR",
     "name": "Johor",
     "iso": "MY-01"
 }
@@ -181,3 +197,8 @@ Change Logs
 1. Redacted `email` addresses from the example codes
 2. Added new funtion `getSchoolByCode`
 3. Edited README.md to reflect new changes
+
+**v1.0.2**
+
+1. Change `sortname` identifier in `state.json` to `shortname` //Thanks Vicknesh!
+2. Introduce a new method `getStateByShortname`
