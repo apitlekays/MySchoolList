@@ -1,5 +1,6 @@
 const xxx = require('../index');
 
+
 describe('SLM', () => {
     test('getStateById', ()=> {
         const id = '11';
@@ -119,5 +120,22 @@ describe('SLM', () => {
             'Labuan',
             'Putrajaya'
         ])
+    })
+    test('getSchoolByCode', () => {
+        let code = 'YEE6101';
+        let sekolahi = xxx.getSchoolByCode(code);
+        expect(sekolahi).toEqual({
+            id: "10153",
+            district_id: "136",
+            name: "SEKOLAH MENENGAH KEBANGSAAN SG PAOH",
+            schoolcode: "YEE6101",
+            level: "Menengah",
+            address: "PETI SURAT 160",
+            postcode: "96107",
+            city: "SARIKEI",
+            email: "YEE6101@moe.edu.my",
+            coordinatexx: "111.46735",
+            coordinateyy: "2.021566667"
+        })
     })
 })
