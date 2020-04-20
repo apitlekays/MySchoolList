@@ -50,6 +50,29 @@ type: **json**
 }
 ```
 
+getSchoolByCode(schoolcode)
+---------------
+
+It accepts a valid `schoolcode` eg: `'YEE6101'`and returns *School Details*
+
+type: **json**
+
+```js
+{
+    "id": "10153",
+    "district_id": "136",
+    "name": "SEKOLAH MENENGAH KEBANGSAAN SG PAOH",
+    "schoolcode": "YEE6101",
+    "level": "Menengah",
+    "address": "PETI SURAT 160",
+    "postcode": "96107",
+    "city": "SARIKEI",
+    "email": "**REDACTED**",
+    "coordinatexx": "111.46735",
+    "coordinateyy": "2.021566667"
+}
+```
+
 getDisctrictOfState(state_id)
 ---------------
 
@@ -84,7 +107,7 @@ type: **json**
 getSchoolsOfDisctrict(district_id)
 ---------------
 
-It accepts a valid `district_d` e.g: `'1'` and returns *City Details*
+It accepts a valid `district_d` e.g: `'1'` and returns *School Details*
 
 type: **json**
 
@@ -98,7 +121,7 @@ type: **json**
     "address": "JALAN KELAB",
     "postcode": "35000",
     "city": "TAPAH",
-    "email": "ABA0001@moe.edu.my",
+    "email": "**REDACTED**",
     "coordinatexx": "101.255932",
     "coordinateyy": "4.196633"
 },
@@ -111,7 +134,7 @@ type: **json**
     "address": "JALAN TAPAH ROAD",
     "postcode": "35400",
     "city": "TAPAH ROAD",
-    "email": "ABA0002@moe.edu.my",
+    "email": "**REDACTED**",
     "coordinatexx": "101.2006171",
     "coordinateyy": "4.178275806"
 } ...]
@@ -152,3 +175,9 @@ Change Logs
 **v1.0.0**
 
 1. Initial commit.
+
+**v1.0.1**
+
+1. Redacted `email` addresses from the example codes
+2. Added new funtion `getSchoolByCode`
+3. Edited README.md to reflect new changes
