@@ -135,7 +135,7 @@ describe('SLM', () => {
         let code = 'YEE6101';
         let sekolahi = xxx.getSchoolByCode(code);
         expect(sekolahi).toEqual({
-            id: "10153",
+            id: "10169",
             district_id: "136",
             name: "SEKOLAH MENENGAH KEBANGSAAN SG PAOH",
             schoolcode: "YEE6101",
