@@ -3,9 +3,11 @@ MY-School-List
 Library for fetching list of schools in Malaysia based on States & District.
 
 Data taken from Ministry of Education Malaysia
-(Date release: January 2018)
+(Date release: January 2020)
 
 Skeleton taken from harpreetkhalsagtbit's `country-state-city`
+
+
 
 # Install
 `npm i my-school-list`
@@ -16,6 +18,13 @@ Skeleton taken from harpreetkhalsagtbit's `country-state-city`
      ```js
      import MSL from 'my-school-list'
      ```
+
+# Golang version
+  - Thanks to @svicknesh. 
+  - Install this package using
+    `go get github.com/svicknesh/myschoollist`
+  - Link : https://github.com/svicknesh/myschoollist
+
 
 # Docs
 
@@ -202,3 +211,8 @@ Change Logs
 
 1. Change `sortname` identifier in `state.json` to `shortname` //Thanks Vicknesh!
 2. Introduce a new method `getStateByShortname`
+
+**v1.1.0**
+
+1. Updating the school list `school.json` based on latest data from MoE (January 2020)
+2. Take note that with this update, id for each school is different from the previous version. Potentially breaking changes, if you refer the school id in your code from version 1.0.2.
