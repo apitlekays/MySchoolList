@@ -3,7 +3,7 @@ MY-School-List
 Library for fetching list of schools in Malaysia based on States & District.
 
 Data taken from Ministry of Education Malaysia
-(Date release: January 2020)
+(Date release: June 2022)
 
 Skeleton taken from harpreetkhalsagtbit's `country-state-city`
 
@@ -63,36 +63,44 @@ type: **json**
 getDistrictById(id)
 ---------------
 
-It accepts a valid `id` eg: `'2'`and returns *District Details*
+It accepts a valid `id` eg: `'2'` and returns *District Details*
 
 type: **json**
 
 ```js
 {
     "id": "2",
-    "name": "PPD MANJUNG",
-    "state_id": "8"
+    "name": "PPD JOHOR BAHRU",
+    "state_id": "1"
 }
 ```
 
 getSchoolByCode(schoolcode)
 ---------------
 
-It accepts a valid `schoolcode` eg: `'YEE6101'`and returns *School Details*
+It accepts a valid `schoolcode` eg: `'YEE6101'` and returns *School Details*
 
 type: **json**
 
 ```js
 {
-    "id": "10153",
-    "district_id": "136",
+    "id": "9441",
+    "district_id": "132",
     "name": "SEKOLAH MENENGAH KEBANGSAAN SG PAOH",
     "schoolcode": "YEE6101",
+    "type": "SMK",
     "level": "Menengah",
     "address": "PETI SURAT 160",
     "postcode": "96107",
     "city": "SARIKEI",
+    "phone": "084671020",
+    "fax": "084671861",
     "email": "**REDACTED**",
+    "location": "Luar Bandar",
+    "students": "812",
+    "teachers": "67",
+    "preschool": "TIADA",
+    "integration": "ADA",
     "coordinatexx": "111.46735",
     "coordinateyy": "2.021566667"
 }
@@ -108,23 +116,23 @@ type: **json**
 
 ```js
 [{
-    "id": "1",
+    "id": "56",
+    "name": "PPD BAGAN DATUK",
+    "state_id": "8"
+},
+{
+    "id": "57",
     "name": "PPD BATANG PADANG",
     "state_id": "8"
 },
 {
-    "id": "2",
-    "name": "PPD MANJUNG",
+    "id": "58",
+    "name": "PPD HILIR PERAK",
     "state_id": "8"
 },
 {
-    "id": "3",
-    "name": "PPD KINTA UTARA",
-    "state_id": "8"
-},
-{
-    "id": "4",
-    "name": "PPD KINTA SELATAN",
+    "id": "59",
+    "name": "PPD HULU PERAK",
     "state_id": "8"
 } ... ]
 ```
@@ -132,36 +140,52 @@ type: **json**
 getSchoolsOfDisctrict(district_id)
 ---------------
 
-It accepts a valid `district_d` e.g: `'1'` and returns *School Details*
+It accepts a valid `district_id` e.g: `'1'` and returns *School Details*
 
 type: **json**
 
 ```js
 [{
-    "id": "1",
+    "id": "175",
     "district_id": "1",
-    "name": "SEKOLAH KEBANGSAAN TOH TANDEWA SAKTI",
-    "schoolcode": "ABA0001",
-    "level": "Rendah",
-    "address": "JALAN KELAB",
-    "postcode": "35000",
-    "city": "TAPAH",
+    "name": "KOLEJ VOKASIONAL BATU PAHAT",
+    "schoolcode": "JHA0002",
+    "type": "KV",
+    "level": "Menengah",
+    "address": "KM. 7, JALAN KLUANG",
+    "postcode": "83000",
+    "city": "BATU PAHAT",
+    "phone": "074312051",
+    "fax": "074315529",
     "email": "**REDACTED**",
-    "coordinatexx": "101.255932",
-    "coordinateyy": "4.196633"
+    "location": "Bandar",
+    "students": "822",
+    "teachers": "124",
+    "preschool": "TIADA",
+    "integration": "ADA",
+    "coordinatexx": "102.984132",
+    "coordinateyy": "1.869434"
 },
 {
-    "id": "2",
+    "id": "176",
     "district_id": "1",
-    "name": "SEKOLAH KEBANGSAAN PENDITA ZA'BA",
-    "schoolcode": "ABA0002",
-    "level": "Rendah",
-    "address": "JALAN TAPAH ROAD",
-    "postcode": "35400",
-    "city": "TAPAH ROAD",
+    "name": "KOLEJ VOKASIONAL TUN HUSSEIN ONN",
+    "schoolcode": "JHA0003",
+    "type": "KV",
+    "level": "Menengah",
+    "address": "KM 7.75  JALAN KLUANG",
+    "postcode": "83000",
+    "city": "BATU PAHAT",
+    "phone": "074340112",
+    "fax": "074330112",
     "email": "**REDACTED**",
-    "coordinatexx": "101.2006171",
-    "coordinateyy": "4.178275806"
+    "location": "Bandar",
+    "students": "127",
+    "teachers": "25",
+    "preschool": "TIADA",
+    "integration": "ADA",
+    "coordinatexx": "102.986777",
+    "coordinateyy": "1.868884"
 } ...]
 ```
 
@@ -175,19 +199,19 @@ type: **array of json**
 [
     {
 		"id": "1",
-		"sortname": "JHR",
+		"shortname": "JHR",
 		"name": "Johor",
 		"iso": "MY-01"
 	},
 	{
 		"id": "2",
-		"sortname": "KDH",
+		"shortname": "KDH",
 		"name": "Kedah",
 		"iso": "MY-02"
 	},
 	{
 		"id": "3",
-		"sortname": "KTN",
+		"shortname": "KTN",
 		"name": "Kelantan",
 		"iso": "MY-03"
 	}...
@@ -216,3 +240,10 @@ Change Logs
 
 1. Updating the school list `school.json` based on latest data from MoE (January 2020)
 2. Take note that with this update, id for each school is different from the previous version. Potentially breaking changes, if you refer the school id in your code from version 1.0.2.
+
+**v1.2.0**
+
+1. Updated school data to June 2022 release from MoE (source: archive.data.gov.my)
+2. Added new fields to school data: `type`, `phone`, `fax`, `location`, `students`, `teachers`, `preschool`, `integration`
+3. Total schools: 10,230 (7,778 primary + 2,452 secondary)
+4. District IDs and school IDs have changed from the previous version. Potentially breaking changes if you reference IDs directly in your code from version 1.1.0.

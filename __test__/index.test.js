@@ -23,10 +23,10 @@ describe('SLM', () => {
         })
     })
     test('getDistrictById', () => {
-        const id = '84';
+        const id = '86';
         let District = xxx.getDistrictById(id);
         expect(District).toEqual({
-            id: "84",
+            id: "86",
 		    name: "PPD SETIU",
 		    state_id: "11"
         })
@@ -49,7 +49,7 @@ describe('SLM', () => {
         ])
     })
     test('getSchoolsOfDisctrict', () => {
-        const districtID = '40';
+        const districtID = '25';
         let Schools = xxx.getSchoolsOfDisctrict(districtID);
         let schoolnames = Schools.map((sekolah)=>sekolah.name);
         expect(schoolnames).toEqual([
@@ -135,15 +135,23 @@ describe('SLM', () => {
         let code = 'YEE6101';
         let sekolahi = xxx.getSchoolByCode(code);
         expect(sekolahi).toEqual({
-            id: "10169",
-            district_id: "136",
+            id: "9441",
+            district_id: "132",
             name: "SEKOLAH MENENGAH KEBANGSAAN SG PAOH",
             schoolcode: "YEE6101",
+            type: "SMK",
             level: "Menengah",
             address: "PETI SURAT 160",
             postcode: "96107",
             city: "SARIKEI",
+            phone: "084671020",
+            fax: "084671861",
             email: "YEE6101@moe.edu.my",
+            location: "Luar Bandar",
+            students: "812",
+            teachers: "67",
+            preschool: "TIADA",
+            integration: "ADA",
             coordinatexx: "111.46735",
             coordinateyy: "2.021566667"
         })
